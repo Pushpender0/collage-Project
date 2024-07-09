@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>administrator</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+    </script>
+</head>
+<body >
+<div id="main">
+    <nav >
+        <div class="nav-links " id="nav-links">
+            <ul id="flex">
+                <li><a href="index.html" class="hover-link">HOME</a></li>
+                <li><a href="administrator.html" class="hover-link">ADMINISTRATOR</a></li>
+                <li><a href="tour-operator.html" class="hover-link">TOUR OPERATOR</a></li>
+                <li><a href="customer-tourist.html" class="hover-link">CUSTOMER TOURIST</a></li>
+                <li><a href="reservation.html" class="hover-link">RESERVATION</a></li>
+                <!-- <li><a href="testimonials.php" class="hover-link">TESTIMONIALS</a></li> -->
+                <li><a href="feedback.html" class="hover-link">FEEDBACK</a></li>
+                <li><a href="contactus.html" class="hover-link">CONTACT US</a></li>
+                <li><a href="aboutus.html" class="hover-link">ABOUT US</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <img src="img/aircraft.jpg" alt="">
+        <div class="form">
+            <h1>ADMINISTRATOR</h1><br>
+            <form action="db-administrator.php" method="post">
+                <div class="txt-field">
+                <input type="text" name="name1" id="name1" required>
+                <span></span>
+                <label>Name</label><br>
+                </div>
+
+                <div class="txt-field">
+                <input type="text" name="Id" id="Id" required>
+                <span></span>
+                <label>login ID</label><br>
+                </div>
+
+                <div class="txt-field">
+                <input type="password" name="pass" id="pass" required>
+                <span></span>
+                <label>Password</label><br>
+                </div>
+
+                <div class="txt-field">
+                <input type="email" name="email" id="email" required>
+                <span></span>
+                <label>Email</label><br>
+                </div>
+                <input class="btn" type="submit" name="btnsubmit" onclick="Msg()" value="SUBMIT">
+                <!-- button to fix karna hai jab submit kar rhe hai to posstion change ho rhi hai -->
+
+            </form>
+
+ 
+        </div>
+    <!-- <video src="airbus.mp4" autoplay muted loop></video> -->
+    </div>
+    <footer>
+            <h3>All rights reserved | Copyright &copy Protected </h3>
+        </footer>
+   
+</body>
+</html>
